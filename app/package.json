@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-typescript",
+  "version": "1.0.0",
+  "description": "My tiptop Nuxt.js project",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development HOST=0.0.0.0 PORT=4000 nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "@nuxt/typescript-runtime": "^0.4.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.6.0",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "vue-jest": "^4.0.0-0",
+    "ts-jest": "^25.0.0"
+  }
+}
