@@ -6,7 +6,10 @@ nuxt-typescript(SPA)
 - [x] TypeScript
 - [x] ESLint
 - [x] Prettier
-- [x] jest
+- [x] Jest
 - [x] Jest Puppeteer
 
-PR求む
+## 求む🔥
+
+- [x] PR求む
+- [x] ISSUE求む
