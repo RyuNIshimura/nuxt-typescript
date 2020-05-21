@@ -1,7 +1,7 @@
 # nuxt-typescript
 nuxt-typescript(SPA)
 
-## 使用したいプラグイン
+## NEED💴
 
 - [x] TypeScript
 - [x] ESLint
@@ -9,7 +9,7 @@ nuxt-typescript(SPA)
 - [x] Jest
 - [x] Jest Puppeteer
 
-## 求む🔥
+## WANTED🔥
 
 - [x] PR求む
 - [x] ISSUE求む
