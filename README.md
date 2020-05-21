@@ -12,7 +12,7 @@ nuxt-typescript(SPA)
 
 ```
 $ git clone <url> && cd <repository-name>
-$ yarn install
+$ yarn install // HaskyをInstallし、コミット時にLintを流します。
 ```
 
 Dockerのビルドし、Docker内のnode_moduleをインポートしましょう。
@@ -31,10 +31,22 @@ $ docker-compose build
 
 以上！課題多そう
 
-## 入れたいもの
+```
+$ yarn test // テスト
+$ yarn lint // 解析
+$ yarn lintfix // 自動修正
+```
+
+## 入れたいライブラリ群
 
 - [x] TypeScript
 - [x] ESLint
 - [x] Prettier
 - [x] Jest
 - [x] Puppeteer
+- [x] Sass
+- [x] Pug
+
+- Dockerに閉じ込めたい
+- Atomic Designを採用
+- CSS設計は、とりあえず、Atomic Designを同じ構成にした。記法は考えていない。
