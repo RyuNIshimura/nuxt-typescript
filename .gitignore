@@ -1,0 +1,5 @@
+.DS_store
+yarn.lock
+node_modules
+yarn-error.log
+.env
